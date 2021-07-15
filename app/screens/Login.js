@@ -23,7 +23,7 @@ const Login = (props) => {
             <Title style={{fontSize:32, marginTop:64, color:'#fff',fontWeight:'bold', marginBottom:24}}>Login</Title>
 
             <View style={{flexDirection:'row', alignItems:'center'}}>
-                <Ionicons name='md-person' size={24} color={'#bfffd9'}/>
+                <Ionicons name='md-person' size={24} color={'#fff'}/>
                 <View style={{flex:1}}>
                     <TextInput
                         theme={{ colors: { text: "#fff", primary:'#bfffd9' } }}
@@ -32,7 +32,7 @@ const Login = (props) => {
                 </View>
             </View>
             <View style={{flexDirection:'row', alignItems:'center'}}>
-                <Ionicons name='md-key' size={24} color={'#bfffd9'}/>
+                <Ionicons name='md-key' size={24} color={'#fff'}/>
                 <View style={{flex:1}}>
                     <TextInput
                         theme={{ colors: { text: "#fff", primary:'#bfffd9' } }}

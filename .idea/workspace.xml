@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3eff67d1-7eb3-48e3-8977-5eff4fc41d9a" name="Default Changelist" comment="some screens done">
-      <change afterPath="$PROJECT_DIR$/assets/splash.jpg" afterDir="false" />
+    <list default="true" id="3eff67d1-7eb3-48e3-8977-5eff4fc41d9a" name="Default Changelist" comment="login, signup &amp; splash done">
+      <change afterPath="$PROJECT_DIR$/app/screens/About.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/screens/Tnc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/Router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/screens/ChatPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/ChatPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/screens/CreateAdSelectCategory.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/CreateAdSelectCategory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/screens/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/screens/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/screens/MyAds.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/MyAds.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/screens/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/Products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/screens/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/Profile.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/screens/Signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/Signup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/icon.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +55,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/screens" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -57,8 +66,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/app/screens" />
+      <recent name="$PROJECT_DIR$/assets" />
       <recent name="$PROJECT_DIR$/assets/images" />
     </key>
   </component>
@@ -73,7 +82,9 @@
       <workItem from="1626002649276" duration="7757000" />
       <workItem from="1626289877628" duration="38000" />
       <workItem from="1626289918862" duration="17912000" />
-      <workItem from="1626329360759" duration="1737000" />
+      <workItem from="1626329360759" duration="2824000" />
+      <workItem from="1626339394589" duration="23000" />
+      <workItem from="1626340784194" duration="2916000" />
     </task>
     <task id="LOCAL-00001" summary="some screens done">
       <created>1626309226547</created>
@@ -82,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1626309226547</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="login, signup &amp; splash done">
+      <created>1626331313647</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1626331313647</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +120,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="some screens done" />
-    <option name="LAST_COMMIT_MESSAGE" value="some screens done" />
+    <MESSAGE value="login, signup &amp; splash done" />
+    <option name="LAST_COMMIT_MESSAGE" value="login, signup &amp; splash done" />
   </component>
 </project>

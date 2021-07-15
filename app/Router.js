@@ -5,6 +5,8 @@ import Login from "./screens/Login";
 import Signup from "./screens/Signup";
 import Chats from './screens/Chats';
 import ChatPage from './screens/ChatPage';
+import About from './screens/About';
+import Tnc from './screens/Tnc';
 import Profile from './screens/Profile';
 import ProductDetail from './screens/ProductDetail';
 import MyAds from './screens/MyAds';
@@ -36,7 +38,7 @@ CombinedDefaultTheme = {
     colors: {
         ...CombinedDefaultTheme.colors,
         background: '#fff',
-        primary: '#bfffd9',
+        primary: '#CFFBCF',
         accent: '#052536',
         highlight: `rgba(25, 208, 180, 0.16)`
     }
@@ -90,7 +92,7 @@ const BottomTabsScreen = () => (
         }} name='chat' component={Chats}/>
         <BottomTabs.Screen options={{
             tabBarIcon: ({color}) => (
-                <Ionicons name="md-add-circle-outline" size={26} color={color}/>
+                <Ionicons name="md-add-circle-outline" size={40} color={color}/>
             ),
         }} name='sell' component={CreateAdSelectCategory}/>
         <BottomTabs.Screen options={{
@@ -117,8 +119,8 @@ const CoreStackScreen = () => (
         <CoreStack.Screen options={{headerShown: false}} name='chat_page' component={ChatPage}/>
         <CoreStack.Screen options={{headerShown: false}} name='create_ad_page' component={CreateAd}/>
         <CoreStack.Screen options={{headerShown: false}} name='notifications' component={Login}/>
-        <CoreStack.Screen options={{headerShown: false}} name='tnc' component={Login}/>
-        <CoreStack.Screen options={{headerShown: false}} name='about_us' component={Login}/>
+        <CoreStack.Screen options={{headerTitle:'Terms & Conditions'}} name='tnc' component={Tnc}/>
+        <CoreStack.Screen options={{headerTitle:'About Us'}} name='about_us' component={About}/>
         <CoreStack.Screen options={{headerShown: false}} name='language' component={Login}/>
     </CoreStack.Navigator>
 )

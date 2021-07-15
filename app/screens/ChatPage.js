@@ -1,6 +1,6 @@
 import React, {useCallback, useRef} from "react";
 import {Dimensions, Image, SafeAreaView, View, ScrollView} from "react-native";
-import {Headline, Text, TextInput, Title} from 'react-native-paper'
+import {Headline, Text, Title, TextInput} from 'react-native-paper'
 import {Ionicons} from '@expo/vector-icons'
 import Carousel from 'react-native-snap-carousel';
 import {Avatar, List} from "react-native-paper";
@@ -45,6 +45,13 @@ const ChatPage = (props) => {
                     )
                 )}
             </ScrollView>
+            <View style={{flexDirection:'row', alignItems:'center'}}>
+                <TextInput
+                    placeholder='Type message...'
+                    style={{flex:1, backgroundColor:'#fff', borderTopRightRadius:0, borderTopLeftRadius:0}}
+                />
+                <Ionicons name='md-send' style={{marginHorizontal:16}} color='#fff' size={30}/>
+            </View>
 
         </View>
     )

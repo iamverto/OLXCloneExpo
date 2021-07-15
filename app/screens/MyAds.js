@@ -67,12 +67,14 @@ const MyFavAdsScreen = (props) => {
                     description="L'Oréal Laboratories have created Ceramide-Cement technology to."
                     onPress={()=>props.navigation.push('product_page')}
                     left={()=><Avatar.Image source={require('../../assets/images/car.webp')}/>}
+                    right={()=><Ionicons name='md-heart' color='#ff2155' size={24} style={{alignSelf:'center'}}/>}
                 />
                 <List.Item
                     title='Mercedes Benz'
                     titleStyle={{fontSize:18, marginBottom:4, fontWeight:'bold'}}
                     description="L'Oréal Laboratories have created Ceramide-Cement technology to."
                     onPress={()=>props.navigation.push('product_page')}
+                    right={()=><Ionicons name='md-heart' color='#ff2155' size={24} style={{alignSelf:'center'}}/>}
                     left={()=><Avatar.Image source={require('../../assets/images/car.webp')}/>}
                 />
                 <List.Item
@@ -80,6 +82,7 @@ const MyFavAdsScreen = (props) => {
                     titleStyle={{fontSize:18, marginBottom:4, fontWeight:'bold'}}
                     description="L'Oréal Laboratories have created Ceramide-Cement technology to."
                     onPress={()=>props.navigation.push('product_page')}
+                    right={()=><Ionicons name='md-heart' color='#ff2155' size={24} style={{alignSelf:'center'}}/>}
                     left={()=><Avatar.Image source={require('../../assets/images/car.webp')}/>}
                 />
                 <List.Item
@@ -87,6 +90,7 @@ const MyFavAdsScreen = (props) => {
                     titleStyle={{fontSize:18, marginBottom:4, fontWeight:'bold'}}
                     description="L'Oréal Laboratories have created Ceramide-Cement technology to."
                     onPress={()=>props.navigation.push('product_page')}
+                    right={()=><Ionicons name='md-heart' color='#ff2155' size={24} style={{alignSelf:'center'}}/>}
                     left={()=><Avatar.Image source={require('../../assets/images/car.webp')}/>}
                 />
                 <List.Item
@@ -94,6 +98,7 @@ const MyFavAdsScreen = (props) => {
                     titleStyle={{fontSize:18, marginBottom:4, fontWeight:'bold'}}
                     description="L'Oréal Laboratories have created Ceramide-Cement technology to."
                     onPress={()=>props.navigation.push('product_page')}
+                    right={()=><Ionicons name='md-heart' color='#ff2155' size={24} style={{alignSelf:'center'}}/>}
                     left={()=><Avatar.Image source={require('../../assets/images/car.webp')}/>}
                 />
 

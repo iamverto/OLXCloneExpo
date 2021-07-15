@@ -39,62 +39,42 @@ const CreateAdSelectCategory = (props) => {
 
                     <View style={{flexDirection:'row', justifyContent:'space-around', marginTop:16}}>
                         <TouchableOpacity onPress={()=>props.navigation.navigate('create_ad_page')} style={{height:100, width:100, backgroundColor:'#fff', borderColor:'#eee', borderWidth:1, borderRadius:24, alignItems:'center', justifyContent:'center'}}>
-                            <Ionicons name='md-headset' color='#052536' size={48}/>
-                            <Title>Cars</Title>
+                            <Ionicons name='md-car-sport-outline' color='#052536' size={36}/>
+                            <Text>Cars</Text>
                         </TouchableOpacity>
                         <TouchableOpacity onPress={()=>props.navigation.navigate('create_ad_page')} style={{height:100, width:100, backgroundColor:'#fff', borderColor:'#eee', borderWidth:1, borderRadius:24, alignItems:'center', justifyContent:'center'}}>
-                            <Ionicons name='md-headset' color='#052536' size={48}/>
-                            <Title>Cars</Title>
-                        </TouchableOpacity>
-                    </View>
-                    <View style={{flexDirection:'row', justifyContent:'space-around', marginTop:16}}>
-                        <TouchableOpacity onPress={()=>props.navigation.navigate('create_ad_page')} style={{height:100, width:100, backgroundColor:'#fff', borderColor:'#eee', borderWidth:1, borderRadius:24, alignItems:'center', justifyContent:'center'}}>
-                            <Ionicons name='md-headset' color='#052536' size={48}/>
-                            <Title>Cars</Title>
-                        </TouchableOpacity>
-                        <TouchableOpacity onPress={()=>props.navigation.navigate('create_ad_page')} style={{height:100, width:100, backgroundColor:'#fff', borderColor:'#eee', borderWidth:1, borderRadius:24, alignItems:'center', justifyContent:'center'}}>
-                            <Ionicons name='md-headset' color='#052536' size={48}/>
-                            <Title>Cars</Title>
+                            <Ionicons name='md-phone-portrait-outline' color='#052536' size={36}/>
+                            <Text>Phone</Text>
                         </TouchableOpacity>
                     </View>
                     <View style={{flexDirection:'row', justifyContent:'space-around', marginTop:16}}>
                         <TouchableOpacity onPress={()=>props.navigation.navigate('create_ad_page')} style={{height:100, width:100, backgroundColor:'#fff', borderColor:'#eee', borderWidth:1, borderRadius:24, alignItems:'center', justifyContent:'center'}}>
-                            <Ionicons name='md-headset' color='#052536' size={48}/>
-                            <Title>Cars</Title>
+                            <Ionicons name='md-headset' color='#052536' size={36}/>
+                            <Text>Electronics</Text>
                         </TouchableOpacity>
                         <TouchableOpacity onPress={()=>props.navigation.navigate('create_ad_page')} style={{height:100, width:100, backgroundColor:'#fff', borderColor:'#eee', borderWidth:1, borderRadius:24, alignItems:'center', justifyContent:'center'}}>
-                            <Ionicons name='md-headset' color='#052536' size={48}/>
-                            <Title>Cars</Title>
-                        </TouchableOpacity>
-                    </View>
-                    <View style={{flexDirection:'row', justifyContent:'space-around', marginTop:16}}>
-                        <TouchableOpacity onPress={()=>props.navigation.navigate('create_ad_page')} style={{height:100, width:100, backgroundColor:'#fff', borderColor:'#eee', borderWidth:1, borderRadius:24, alignItems:'center', justifyContent:'center'}}>
-                            <Ionicons name='md-headset' color='#052536' size={48}/>
-                            <Title>Cars</Title>
-                        </TouchableOpacity>
-                        <TouchableOpacity onPress={()=>props.navigation.navigate('create_ad_page')} style={{height:100, width:100, backgroundColor:'#fff', borderColor:'#eee', borderWidth:1, borderRadius:24, alignItems:'center', justifyContent:'center'}}>
-                            <Ionicons name='md-headset' color='#052536' size={48}/>
-                            <Title>Cars</Title>
+                            <Ionicons name='md-book-outline' color='#052536' size={36}/>
+                            <Text>Books</Text>
                         </TouchableOpacity>
                     </View>
                     <View style={{flexDirection:'row', justifyContent:'space-around', marginTop:16}}>
                         <TouchableOpacity onPress={()=>props.navigation.navigate('create_ad_page')} style={{height:100, width:100, backgroundColor:'#fff', borderColor:'#eee', borderWidth:1, borderRadius:24, alignItems:'center', justifyContent:'center'}}>
-                            <Ionicons name='md-headset' color='#052536' size={48}/>
-                            <Title>Cars</Title>
+                            <Ionicons name='md-barbell-outline' color='#052536' size={36}/>
+                            <Text>Equipments</Text>
                         </TouchableOpacity>
                         <TouchableOpacity onPress={()=>props.navigation.navigate('create_ad_page')} style={{height:100, width:100, backgroundColor:'#fff', borderColor:'#eee', borderWidth:1, borderRadius:24, alignItems:'center', justifyContent:'center'}}>
-                            <Ionicons name='md-headset' color='#052536' size={48}/>
-                            <Title>Cars</Title>
+                            <Ionicons name='md-glasses-outline' color='#052536' size={36}/>
+                            <Text>Fashion</Text>
                         </TouchableOpacity>
                     </View>
                     <View style={{flexDirection:'row', justifyContent:'space-around', marginTop:16}}>
                         <TouchableOpacity onPress={()=>props.navigation.navigate('create_ad_page')} style={{height:100, width:100, backgroundColor:'#fff', borderColor:'#eee', borderWidth:1, borderRadius:24, alignItems:'center', justifyContent:'center'}}>
-                            <Ionicons name='md-headset' color='#052536' size={48}/>
-                            <Title>Cars</Title>
+                            <Ionicons name='md-pizza-outline' color='#052536' size={36}/>
+                            <Text>Food</Text>
                         </TouchableOpacity>
                         <TouchableOpacity onPress={()=>props.navigation.navigate('create_ad_page')} style={{height:100, width:100, backgroundColor:'#fff', borderColor:'#eee', borderWidth:1, borderRadius:24, alignItems:'center', justifyContent:'center'}}>
-                            <Ionicons name='md-headset' color='#052536' size={48}/>
-                            <Title>Cars</Title>
+                            <Ionicons name='md-albums-outline' color='#052536' size={36}/>
+                            <Text>Extra</Text>
                         </TouchableOpacity>
                     </View>
                 </ScrollView>

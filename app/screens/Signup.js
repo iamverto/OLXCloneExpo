@@ -20,7 +20,7 @@ const Signup = (props) => {
             </View>
 
             <View style={{flexDirection:'row', alignItems:'center',marginTop:64}}>
-                <Ionicons name='md-person' size={24} color={'#bfffd9'}/>
+                <Ionicons name='md-person' size={24} color={'#fff'}/>
                 <View style={{flex:1}}>
                     <TextInput
                         theme={{ colors: { text: "#fff", primary:'#bfffd9' } }}
@@ -29,7 +29,7 @@ const Signup = (props) => {
                 </View>
             </View>
             <View style={{flexDirection:'row', alignItems:'center'}}>
-                <Ionicons name='md-mail' size={24} color={'#bfffd9'}/>
+                <Ionicons name='md-mail' size={24} color={'#fff'}/>
                 <View style={{flex:1}}>
                     <TextInput
                         theme={{ colors: { text: "#fff", primary:'#bfffd9' } }}
@@ -39,7 +39,7 @@ const Signup = (props) => {
             </View>
 
             <View style={{flexDirection:'row', alignItems:'center'}}>
-                <Ionicons name='md-call' size={24} color={'#bfffd9'}/>
+                <Ionicons name='md-call' size={24} color={'#fff'}/>
                 <View style={{flex:1}}>
                     <TextInput
                         theme={{ colors: { text: "#fff", primary:'#bfffd9' } }}
@@ -49,7 +49,7 @@ const Signup = (props) => {
             </View>
 
             <View style={{flexDirection:'row', alignItems:'center'}}>
-                <Ionicons name='md-key' size={24} color={'#bfffd9'}/>
+                <Ionicons name='md-key' size={24} color={'#fff'}/>
                 <View style={{flex:1}}>
                     <TextInput
                         theme={{ colors: { text: "#fff", primary:'#bfffd9' } }}

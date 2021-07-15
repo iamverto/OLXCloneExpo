@@ -1,10 +1,11 @@
 import React, {useCallback, useRef} from "react";
 import {Dimensions, Image, SafeAreaView, View, TouchableOpacity, ScrollView} from "react-native";
-import {Headline, Text, TextInput, Title} from 'react-native-paper'
+import {Headline, Text, TextInput, Title, useTheme} from 'react-native-paper'
 import {Ionicons} from '@expo/vector-icons'
 import Carousel from 'react-native-snap-carousel';
 
 const Products = (props) => {
+    const theme = useTheme()
     const carousel = useRef()
     const {height, width} = Dimensions.get('window')
 
@@ -39,9 +40,17 @@ const Products = (props) => {
                     <Title style={{flex: 1}}>Gujrat, India</Title>
                     <View style={{flex:1}}/>
                     <Ionicons name='md-search' size={24}/>
-
                 </View>
-                <View style={{paddingHorizontal: 12}}>
+                <ScrollView style={{paddingHorizontal:12}}
+                            horizontal
+                            >
+                    <TouchableOpacity style={{margin:4, padding:4, backgroundColor:theme.colors.accent, borderRadius:16, paddingHorizontal:16}}><Text style={{color:'#fff'}}>All</Text></TouchableOpacity>
+                    <TouchableOpacity style={{margin:4, padding:4, backgroundColor:theme.colors.primary, borderRadius:16, paddingHorizontal:16}}><Text style={{color:theme.colors.accent}}>Cars</Text></TouchableOpacity>
+                    <TouchableOpacity style={{margin:4, padding:4, backgroundColor:theme.colors.primary, borderRadius:16, paddingHorizontal:16}}><Text style={{color:theme.colors.accent}}>Mobiles & Electronics</Text></TouchableOpacity>
+                    <TouchableOpacity style={{margin:4, padding:4, backgroundColor:theme.colors.primary, borderRadius:16, paddingHorizontal:16}}><Text style={{color:theme.colors.accent}}>Mens Fashion</Text></TouchableOpacity>
+                    <TouchableOpacity style={{margin:4, padding:4, backgroundColor:theme.colors.primary, borderRadius:16, paddingHorizontal:16}}><Text style={{color:theme.colors.accent}}>Womens Fashion</Text></TouchableOpacity>
+                </ScrollView>
+                    <View style={{paddingHorizontal: 12}}>
                     <View style={{flexDirection: 'row', paddingHorizontal: 12, alignItems: 'center'}}>
                         <Text>Showing 2201 Items for sale</Text>
                         <View style={{flex:1}}/>

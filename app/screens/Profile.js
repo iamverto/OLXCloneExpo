@@ -9,34 +9,61 @@ const Profile = (props) => {
     const {height, width} = Dimensions.get('window')
 
     return (
-        <ScrollView style={{flex: 1, backgroundColor: '#fff', padding:12}} contentContainerStyle={{alignItems:'center'}}>
-            <Headline style={{alignSelf:'flex-start'}}>Profile</Headline>
-            <Avatar.Image size={100} source={require('../../assets/images/sample_profile_pic.jpg')}/>
-            <Title>Priyanshu Singh</Title>
-            <Text>priyanshu@lytevideo.com</Text>
-            <Text>Bengaluru, KA</Text>
-            <Button
-                labelStyle={{color:'#052536'}}
-                mode={'outlined'}
-                style={{alignItems:'center', marginTop:64, width:250, borderRadius:32, alignSelf:'center'}}>My Ads</Button>
-            <Button
-                labelStyle={{color:'#052536'}}
-                mode={'outlined'}
-                style={{alignItems:'center', marginTop:8, width:250, borderRadius:32, alignSelf:'center'}}>Profile Settings</Button>
-            <Button
-                labelStyle={{color:'#052536'}}
-                mode={'outlined'}
-                style={{alignItems:'center', marginTop:8, width:250, borderRadius:32, alignSelf:'center'}}>Language</Button>
-            <Button
-                labelStyle={{color:'#052536'}}
-                mode={'outlined'}
-                style={{alignItems:'center', marginTop:8, width:250, borderRadius:32, alignSelf:'center'}}>Terms & Conditions</Button>
-            <Button
-                labelStyle={{color:'#052536'}}
-                mode={'outlined'}
-                style={{alignItems:'center', marginTop:8, width:250, borderRadius:32, alignSelf:'center'}}>About Us</Button>
+        <View style={{flex:1}}>
+            <ScrollView style={{flex: 1, backgroundColor: '#fff', padding: 12}}
+                        contentContainerStyle={{alignItems: 'center'}}>
+                <Headline style={{alignSelf: 'flex-start'}}>Profile</Headline>
+                <Avatar.Image size={100} source={require('../../assets/images/sample_profile_pic.jpg')}/>
+                <Title>Priyanshu Singh</Title>
+                <Text>priyanshu@lytevideo.com</Text>
+                <Text>Bengaluru, KA</Text>
+                <Button
+                    labelStyle={{color: '#052536'}}
+                    mode={'outlined'}
+                    onPress={()=>props.navigation.navigate('bottom_tabs', {'screen':'my_ad'})}
+                    style={{alignItems: 'center', marginTop: 64, width: 250, borderRadius: 32, alignSelf: 'center'}}>My
+                    Ads</Button>
+                <Button
+                    labelStyle={{color: '#052536'}}
+                    mode={'outlined'}
+                    style={{alignItems: 'center', marginTop: 8, width: 250, borderRadius: 32, alignSelf: 'center'}}>Profile
+                    Settings</Button>
+                <Button
+                    labelStyle={{color: '#052536'}}
+                    mode={'outlined'}
+                    style={{
+                        alignItems: 'center',
+                        marginTop: 8,
+                        width: 250,
+                        borderRadius: 32,
+                        alignSelf: 'center'
+                    }}>Language</Button>
+                <Button
+                    labelStyle={{color: '#052536'}}
+                    mode={'outlined'}
+                    onPress={() => props.navigation.navigate('tnc')}
+                    style={{alignItems: 'center', marginTop: 8, width: 250, borderRadius: 32, alignSelf: 'center'}}>Terms
+                    & Conditions</Button>
+                <Button
+                    labelStyle={{color: '#052536'}}
+                    mode={'outlined'}
+                    onPress={() => props.navigation.navigate('about_us')}
+                    style={{alignItems: 'center', marginTop: 8, width: 250, borderRadius: 32, alignSelf: 'center'}}>About
+                    Us</Button>
 
-        </ScrollView>
+            </ScrollView>
+            <Button
+                labelStyle={{color: '#052536'}}
+                mode={'outlined'}
+                onPress={() => props.navigation.navigate('login')}
+                style={{
+                    alignItems: 'center',
+                    marginTop: 8,
+                    width: 250,
+                    borderRadius: 32,
+                    alignSelf: 'center'
+                }}>Logout</Button>
+        </View>
     )
 }
 export default Profile;
