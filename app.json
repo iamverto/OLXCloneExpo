@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "OLXCloneApp",
-    "slug": "OLXCloneApp",
+    "name": "Souqna",
+    "slug": "souqna_app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash.jpg",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#052536"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -21,10 +21,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.iamnix.OLXCloneApp"
+      "package": "com.iamnix.souqna"
     },
     "web": {
       "favicon": "./assets/favicon.png"
