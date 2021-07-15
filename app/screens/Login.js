@@ -22,7 +22,7 @@ const Login = (props) => {
 
             <Button
                 labelStyle={{color:'#052536'}}
-                style={{backgroundColor:'#bfffd9', alignItems:'center', marginTop:64, width:200, borderRadius:32, alignSelf:'center'}}  onPress={()=>props.navigation.navigate('home')}>Login</Button>
+                style={{backgroundColor:'#bfffd9', alignItems:'center', marginTop:64, width:200, borderRadius:32, alignSelf:'center'}}  onPress={()=>props.navigation.navigate('bottom_tabs')}>Login</Button>
 
             <Text style={{color:'#fff', textAlign:'center', marginTop:32}}>First time here <TouchableOpacity onPress={()=>props.navigation.navigate('signup')}><Text style={{color:'#bfffd9'}}>Sign Up</Text></TouchableOpacity></Text>
         </View>

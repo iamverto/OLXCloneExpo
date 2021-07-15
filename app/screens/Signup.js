@@ -1,10 +1,10 @@
 import React from "react";
-import {StatusBar, TouchableOpacity, View} from "react-native";
+import {StatusBar, TouchableOpacity, View, ScrollView} from "react-native";
 import {Headline, TextInput, Title, Button, Text} from 'react-native-paper'
 
 const Signup = (props) => {
     return (
-        <View style={{flex:1, padding:12, backgroundColor:'#052536', paddingTop:64}}>
+        <ScrollView style={{flex:1, padding:12, backgroundColor:'#052536', paddingTop:64}}>
             <StatusBar barStyle={"light-content"}/>
             <Headline style={{fontSize:40,fontWeight:'bold', paddingTop:16, color:'#fff'}}>New</Headline>
             <Headline style={{fontSize:40,fontWeight:'bold', paddingTop:8, color:'#fff'}}>Account</Headline>
@@ -29,13 +29,13 @@ const Signup = (props) => {
 
             <Button
                 labelStyle={{color:'#052536'}}
-                style={{backgroundColor:'#bfffd9', alignItems:'center', marginTop:16, width:200, borderRadius:32, alignSelf:'center'}}  onPress={()=>props.navigation.navigate('home')}>Sign Up</Button>
+                style={{backgroundColor:'#bfffd9', alignItems:'center', marginTop:16, width:200, borderRadius:32, alignSelf:'center'}}  onPress={()=>props.navigation.navigate('bottom_tabs')}>Sign Up</Button>
 
             <Text style={{color:'#fff', textAlign:'center', marginTop:32}}>or</Text>
             <Text style={{color:'#fff', textAlign:'center', marginTop:32}}>Login with Google</Text>
             <Text style={{color:'#fff', textAlign:'center', marginTop:32}}>Already have an account? <TouchableOpacity onPress={()=>props.navigation.navigate('login')}><Text style={{color:'#bfffd9'}}>Sign In</Text></TouchableOpacity></Text>
 
-        </View>
+        </ScrollView>
     )
 }
 

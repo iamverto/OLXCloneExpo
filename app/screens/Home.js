@@ -1,21 +1,21 @@
 import React, {useCallback, useRef} from "react";
-import {Dimensions, Image, SafeAreaView, View} from "react-native";
+import {Dimensions, Image, SafeAreaView, View, TouchableOpacity} from "react-native";
 import {Headline, Text, TextInput, Title} from 'react-native-paper'
 import {Ionicons} from '@expo/vector-icons'
 import Carousel from 'react-native-snap-carousel';
 
-const Home = () => {
+const Home = (props) => {
     const carousel = useRef()
     const {height, width} = Dimensions.get('window')
 
     const _renderCarouselItem = useCallback(
         () => (
-            <View style={{height: 200, width: '100%', backgroundColor: 'red'}}>
+            <TouchableOpacity onPress={()=>props.navigation.navigate('products')} style={{height: 200, width: '100%', backgroundColor: 'red'}}>
                 <Image
                     source={{uri: 'https://upload.wikimedia.org/wikipedia/commons/f/f9/Phoenicopterus_ruber_in_S%C3%A3o_Paulo_Zoo.jpg'}}
                     style={{height: 200, width: width}}
                 />
-            </View>
+            </TouchableOpacity>
         ),
         []
     )
@@ -61,20 +61,24 @@ const Home = () => {
                     <Headline>Categories</Headline>
 
                     <View style={{flexDirection:'row', justifyContent:'space-around', marginTop:16}}>
-                        <View style={{height:100, width:100, backgroundColor:'#fff', borderColor:'#eee', borderWidth:1, borderRadius:24, alignItems:'center', justifyContent:'center'}}>
+                        <TouchableOpacity onPress={()=>props.navigation.navigate('products')} style={{height:100, width:100, backgroundColor:'#fff', borderColor:'#eee', borderWidth:1, borderRadius:24, alignItems:'center', justifyContent:'center'}}>
                             <Ionicons name='md-headset' color='#052536' size={48}/>
-                        </View>
-                        <View style={{height:100, width:100, backgroundColor:'#fff', borderColor:'#eee', borderWidth:1, borderRadius:24, alignItems:'center', justifyContent:'center'}}>
+                            <Title>Cars</Title>
+                        </TouchableOpacity>
+                        <TouchableOpacity onPress={()=>props.navigation.navigate('products')} style={{height:100, width:100, backgroundColor:'#fff', borderColor:'#eee', borderWidth:1, borderRadius:24, alignItems:'center', justifyContent:'center'}}>
                             <Ionicons name='md-headset' color='#052536' size={48}/>
-                        </View>
+                            <Title>Cars</Title>
+                        </TouchableOpacity>
                     </View>
-                    <View style={{flexDirection:'row', justifyContent:'space-around', marginTop:48}}>
-                        <View style={{height:100, width:100, backgroundColor:'#fff', borderColor:'#eee', borderWidth:1, borderRadius:24, alignItems:'center', justifyContent:'center'}}>
+                    <View style={{flexDirection:'row', justifyContent:'space-around', marginTop:16}}>
+                        <TouchableOpacity onPress={()=>props.navigation.navigate('products')} style={{height:100, width:100, backgroundColor:'#fff', borderColor:'#eee', borderWidth:1, borderRadius:24, alignItems:'center', justifyContent:'center'}}>
                             <Ionicons name='md-headset' color='#052536' size={48}/>
-                        </View>
-                        <View style={{height:100, width:100, backgroundColor:'#fff', borderColor:'#eee', borderWidth:1, borderRadius:24, alignItems:'center', justifyContent:'center'}}>
+                            <Title>Cars</Title>
+                        </TouchableOpacity>
+                        <TouchableOpacity onPress={()=>props.navigation.navigate('products')} style={{height:100, width:100, backgroundColor:'#fff', borderColor:'#eee', borderWidth:1, borderRadius:24, alignItems:'center', justifyContent:'center'}}>
                             <Ionicons name='md-headset' color='#052536' size={48}/>
-                        </View>
+                            <Title>Cars</Title>
+                        </TouchableOpacity>
                     </View>
                 </View>
             </View>

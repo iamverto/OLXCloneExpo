@@ -2,12 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3eff67d1-7eb3-48e3-8977-5eff4fc41d9a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/api/helper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/screens/ChatPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/screens/Chats.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/screens/CreateAd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/screens/CreateAdSelectCategory.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/screens/MyAds.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/screens/ProductDetail.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/screens/Products.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/screens/Profile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/car.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/sample_profile_pic.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Router.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/Router.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/screens/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/screens/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/Login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/screens/Signup.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/screens/Signup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
@@ -34,6 +45,10 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/babel.config.js" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/app/screens/Chats.js" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectId" id="1vAQviCEItE8wUpja1Pvu4U820c" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -56,6 +71,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/screens" />
+      <recent name="$PROJECT_DIR$/assets/images" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -66,7 +82,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1626002647698</updated>
-      <workItem from="1626002649276" duration="6940000" />
+      <workItem from="1626002649276" duration="7757000" />
+      <workItem from="1626289877628" duration="38000" />
+      <workItem from="1626289918862" duration="17169000" />
     </task>
     <servers />
   </component>
@@ -83,5 +101,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
