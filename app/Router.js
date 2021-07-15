@@ -39,7 +39,7 @@ CombinedDefaultTheme = {
         ...CombinedDefaultTheme.colors,
         background: '#fff',
         primary: '#CFFBCF',
-        accent: '#052536',
+        accent: '#052436',
         highlight: `rgba(25, 208, 180, 0.16)`
     }
 }

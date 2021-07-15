@@ -12,10 +12,10 @@ const Signup = (props) => {
                     <Headline style={{fontSize:40,fontWeight:'bold', paddingTop:16, color:'#fff'}}>New</Headline>
                     <Headline style={{fontSize:40,fontWeight:'bold', paddingTop:8, color:'#fff'}}>Account</Headline>
                 </View>
-                <Image
-                    source={require('../../assets/icon.png')}
-                    style={{height: 100, width: 100, marginHorizontal:12}}
-                />
+                {/*<Image*/}
+                {/*    source={require('../../assets/icon.png')}*/}
+                {/*    style={{height: 100, width: 100, marginHorizontal:12}}*/}
+                {/*/>*/}
 
             </View>
 

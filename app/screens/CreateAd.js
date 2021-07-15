@@ -1,12 +1,13 @@
 import React, {useCallback, useRef} from "react";
 import {Dimensions, Image, SafeAreaView, View, ScrollView} from "react-native";
-import {Headline, Text, TextInput, Title, Button} from 'react-native-paper'
+import {Headline, Text, TextInput, Title, Button, useTheme} from 'react-native-paper'
 import {Ionicons} from '@expo/vector-icons'
 import Carousel from 'react-native-snap-carousel';
 
 const CreateAd = () => {
     const carousel = useRef()
     const {height, width} = Dimensions.get('window')
+    const theme = useTheme()
 
     const _renderCarouselItem = useCallback(
         () => (
@@ -20,7 +21,7 @@ const CreateAd = () => {
         []
     )
     return (
-        <SafeAreaView style={{flex: 1, backgroundColor: '#bfffd9'}}>
+        <SafeAreaView style={{flex: 1, backgroundColor: theme.colors.primary}}>
             <View style={{flexDirection: 'row', height: 64, padding: 12}}>
                 <Ionicons name='md-menu' size={36}/>
                 <Title style={{flex: 1, textAlign: 'center', fontWeight: 'bold'}}>SOQNA</Title>

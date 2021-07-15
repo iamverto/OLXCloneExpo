@@ -13,10 +13,10 @@ const Login = (props) => {
                     <Headline style={{fontSize:40, paddingTop:16, color:'#fff'}}>Welcome</Headline>
                     <Headline style={{fontSize:40, paddingTop:8, color:'#fff'}}>Back</Headline>
                 </View>
-                <Image
-                    source={require('../../assets/icon.png')}
-                    style={{height: 100, width: 100, marginHorizontal:12}}
-                />
+                {/*<Image*/}
+                {/*    source={require('../../assets/icon.png')}*/}
+                {/*    style={{height: 100, width: 100, marginHorizontal:12}}*/}
+                {/*/>*/}
 
             </View>
 

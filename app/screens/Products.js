@@ -21,7 +21,7 @@ const Products = (props) => {
         []
     )
     return (
-        <View style={{flex: 1, backgroundColor: '#bfffd9'}}>
+        <View style={{flex: 1, backgroundColor: theme.colors.primary}}>
             <View style={{flexDirection: 'row', height: 64, padding: 12}}>
                 <Ionicons name='md-menu' size={36}/>
                 <Title style={{flex: 1, textAlign: 'center', fontWeight: 'bold'}}>SOQNA</Title>

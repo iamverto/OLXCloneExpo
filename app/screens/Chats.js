@@ -1,6 +1,6 @@
 import React, {useCallback, useRef} from "react";
 import {Dimensions, Image, SafeAreaView, View, ScrollView} from "react-native";
-import {Headline, Text, TextInput, Title} from 'react-native-paper'
+import {Headline, Text, TextInput, Title, useTheme} from 'react-native-paper'
 import {Ionicons} from '@expo/vector-icons'
 import Carousel from 'react-native-snap-carousel';
 import {Avatar, List} from "react-native-paper";
@@ -9,12 +9,10 @@ import {Avatar, List} from "react-native-paper";
 const Chats = (props) => {
     const carousel = useRef()
     const {height, width} = Dimensions.get('window')
+    const theme = useTheme();
 
     return (
-            <View style={{
-                flex: 1,
-                backgroundColor: '#bfffd9',
-            }}>
+        <View style={{flex: 1, backgroundColor: theme.colors.primary}}>
                 <View style={{flexDirection: 'row', height: 64, padding: 12}}>
                     <Ionicons name='md-menu' size={36}/>
                     <Title style={{flex: 1, textAlign: 'center', fontWeight: 'bold'}}>SOQNA</Title>
